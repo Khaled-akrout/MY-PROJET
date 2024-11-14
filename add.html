@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Soumission</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="styleadd.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>car details</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="matricule">matricule</label>
+                <input type="text" id="matricule" placeholder="245tn2045" required>
+            </div>
+            <div class="form-group">
+                <label for="marque">marque</label>
+                <input type="text" id="marque" name="email" placeholder="kia" required>
+            </div>
+            <div class="form-group">
+                <label for="modele">modele</label>
+                <input type="text" id="modele" name="modele" placeholder="picanto" required>
+            </div>
+            <button type="submit" class="btn" onclick="addcar()">add-car</button>
+        </form>
+        <pre  id="pr"></pre>
+    </div>
+    
+<script src="control.js"></script>
+</body>
+</html>

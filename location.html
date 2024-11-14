@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>espace client</title>
+    <link rel="stylesheet" href="styleLocation.css">
+</head>
+<body><nav id="searchBar">
+    <div class="inputsearch" >
+    <input type="text" name="motcle" id="motcle" required placeholder="search..." class="input"><br><br><br>
+</div>
+<input type="submit" value="chercher" onclick="verif()" class="bouton">
+</nav>
+<pre id="resultat" class="aff">
+</pre>
+<div class="styl">
+<input type="text" id="choix" style="display: none;" placeholder="enter matricule" class="data">
+<input type="submit" id="boutonchoix" style="display: none;" value="louer" onclick="louer()" class="bouton">
+<input type="text" id="nom" style="display: none;" placeholder="enter name" class="data"><br><br>
+<input type="text" id="num" style="display: none;" placeholder="enter phone number" class="data"><br><br>
+<input type="text" id="cin" style="display: none;" placeholder="enter CIN" class="data"><br><br>
+<input type="submit" value="confirm" onclick="confirmer()"style="display: none;" class="bouton" id="boutonconfirmer"></div>
+<pre id="afficher" class="aff"></pre>
+<script src="control.js"></script>
+</body>
+</html>
